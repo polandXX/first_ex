@@ -8,7 +8,7 @@ int main() {
 	char c;
 	int counter = 0;
 
-	getline(cin,word);//Çàïèñü ñòðîêè
+	getline(cin,word);
 	transform(word.begin(), word.end(), word.begin(), toupper);
 	
 	for (int i = 0; i < word.size(); i++)
