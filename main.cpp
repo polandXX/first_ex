@@ -4,15 +4,13 @@
 using namespace std;
 
 int main() {
-	//Переменые 
-	string word;//Строка которую будем вводить 
-	char c;//Переменая для хранения символа для которого будет искаться похожий знак 
-	int counter = 0;//Переменая для подсчета одинаковых символов 
+	string word;
+	char c;
+	int counter = 0;
 
-	getline(cin,word);//Запись строки
-	transform(word.begin(), word.end(), word.begin(), toupper);//Переводит строку в верхний регистр 
-
-	//Алгоритм поиска схожих знаков
+	getline(cin,word);//Г‡Г ГЇГЁГ±Гј Г±ГІГ°Г®ГЄГЁ
+	transform(word.begin(), word.end(), word.begin(), toupper);
+	
 	for (int i = 0; i < word.size(); i++)
 	{
 		c = word[i];
